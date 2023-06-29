@@ -1,0 +1,17 @@
+{
+	"name": "QuickRestartMod",
+	"namespace": "Ategon",
+	"version_number": "2.1.0",
+	"description": "Allows you to restart the run with the same settings by hitting the 'r' key",
+	"website_url": "https://github.com/Ategon/dome-keeper-quick-restart/",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["Ategon"],
+			"compatible_mod_loader_version": "6.0.1",
+			"compatible_game_version": ["2.6"],
+			"config_defaults": {}
+		}
+	}
+}
