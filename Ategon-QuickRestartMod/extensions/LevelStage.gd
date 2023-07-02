@@ -7,5 +7,5 @@ func _input(ev):
 		Audio.sound("gui_loadout_startrun")
 		var startData = LevelStartData.new()
 		startData.loadout = GameWorld.loadoutStageConfig.duplicate()
-		
+		Level.randomizeSeed()
 		StageManager.startStage("stages/landing/landing", [startData])
